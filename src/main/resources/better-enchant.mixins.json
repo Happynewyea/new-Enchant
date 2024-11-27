@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.tests.betterenchant.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnvilMenuMixin",
+    "DamageAbsorbMixin",
+    "MagicAbsorbMixin"
+  ],
+  "client": [
+    "AnvilScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
